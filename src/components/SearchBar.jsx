@@ -22,7 +22,7 @@ const SearchBar = ({ onTermSubmit }) => {
     <Segment>
       <Form onSubmit={onFormSubmit}>
         <Form.Field>
-          <label>Youtube Video Search</label>
+          <label>Search</label>
           <input
             value={term}
             onChange={onInputChange}
